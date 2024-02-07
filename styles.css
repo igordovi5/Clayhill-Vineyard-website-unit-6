@@ -2,14 +2,19 @@ body{
     background-color: #262626;
     display:flow-root;
     margin: 0;
+
+    font-family: "proxima-nova", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 h1{
-    @font-face{
-        src:url("https://use.typekit.net/gkn5fla.css");
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
 }
-}
+
 
 header{
     background-color: black;
