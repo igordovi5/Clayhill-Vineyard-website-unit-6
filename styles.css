@@ -1,17 +1,10 @@
 body{
     background-color: #262626;
     display:flow-root;
-    margin: 0;
 
     font-family: "proxima-nova", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-
-h1{
-  font-family: "proxima-nova", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
