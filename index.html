@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-  <title>Home - Clayhill Vineyard</title>
-  <link rel="icon" type="image/jpg" href="Images/Clayhill-vineyard-logo.jpg">
-  <link rel="stylesheet" href="styles.css">
-
-  
-
-</head>
+  <head>
+    <title>Home - Clayhill Vineyard</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="Images/Clayhill-vineyard-logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
 
-<body>
-  <header align="center">
-    <h3>CLAYHILL VINEYARD</h3>
-    <img src="Images/Clayhill-vineyard-logo.jpg" alt="Clayhill-vineyard-logo" class="responsive"   width="325px" height="175px">
-    <input type="text" placeholder="Search..">
-  </header>
+  <body>
+      <header align="center">
+          <h3>CLAYHILL VINEYARD</h3>
+          <img src="Images/Clayhill-vineyard-logo.jpg" alt="Clayhill-vineyard-logo" class="responsive"   width="325px" height="175px">
+          <input type="text" placeholder="Search..">
+      </header>
 
-  <div class="container">
-    <div class="navbar">
-      <a class="active"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a><i class="fa fa-fw fa-aboutus"></i> About Us</a>
-      <a><i class="fa fa-fw fa-ourevents"></i>Our events</a>
-      <a><i class="fa fa-fw fa-tours"></i>Tours</a>
-      <a><i class="fa fa-fw fa-ourproducts"></i>Our products</a>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-  </div>
+
+    <script>
+      
+      function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
   
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <main></main>
 
   <h1>hey man</h1>
