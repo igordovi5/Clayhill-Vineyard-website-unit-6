@@ -46,42 +46,46 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: black;
 }
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
   /* Flex spacing doesn't work if it doesn't know how wide the container is! What could we add here to give it a nudge? */
 }
 
-.nav-item {
-  margin-left: 5rem;
   /* Once your flex works correctly, this will make it look strange - remove it :) */
-}
 
-.nav-link {
+
+.button {
   font-size: 1.6rem;
   font-weight: 400;
   color: #ffc000;
 }
 
-.nav-link:hover {
-  color: white;
+.button:hover {
+  background-color: white;
+}
+
+.container {
+  max-width: 400px;
 }
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 11rem;
     flex-direction: column;
     background-color: black;
-    width: 100px;
-    border-radius: 10px;
+    width: 100%;
+    padding: 0;
+    border-radius: 0px;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 10px 26px black;
+    box-shadow: 0 black;
   }
 
   /* ^ Think about how this is positioned. It's too high on the page and the width SHOULD be 100, but maybe not pixels...! */
