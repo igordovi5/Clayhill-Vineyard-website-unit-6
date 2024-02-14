@@ -30,7 +30,7 @@ a{
 .navbar{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  box-align: center;
   padding: 1rem,1.5em;
   background-color: black;
   outline: auto;
@@ -54,7 +54,7 @@ a{
 .nav-menu{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
 }
 
 .nav-item{
