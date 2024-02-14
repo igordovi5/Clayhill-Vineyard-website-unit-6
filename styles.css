@@ -30,7 +30,9 @@ a{
 .navbar{
   display: flex;
   justify-content: space-between;
+  /* Think about which type of spacing you want to use here ^ */
   box-align: center;
+  /* Box align and padding Not used on flex elements */
   padding: 1rem,1.5em;
   background-color: black;
   outline: auto;
@@ -54,11 +56,13 @@ a{
 .nav-menu{
   display: flex;
   justify-content: space-between;
+  /* Flex spacing doesn't work if it doesn't know how wide the container is! What could we add here to give it a nudge? */
   
 }
 
 .nav-item{
   margin-left: 5rem;
+  /* Once your flex works correctly, this will make it look strange - remove it :) */
 }
 
 .nav-link{
